@@ -9,7 +9,7 @@ print("\n----LOGIN----")
 login = input("Insira seu nome: ")
 loginsenha = input("Insira sua senha: ")
 
-if login != cadastro and loginsenha != cadastrosenha:
+if login != cadastro or loginsenha != cadastrosenha:
     print("Informações inválidas, tente novamente.")
 else:
     numerocartao1 = random.randint(1000, 9999)
